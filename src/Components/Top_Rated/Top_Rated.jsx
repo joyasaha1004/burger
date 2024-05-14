@@ -22,9 +22,9 @@ const Top_Rated = () => {
                 data-aos="fade-up"
                 className="text-gray-600 text-xs font-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, quo!</span>
             </div>
-            <div className="flex flex-wrap ml-3">
-                <div className="-mt-5 ml-5 w-72 h-96 text-center  place-item-center overflow-visible relative mb-5 group
-               "
+            <div className=" ml-24 grid grid-col-1 sm:ml-[20vw] md:flex flex-wrap lg:flex flex-wrap lg:ml-32">
+                <div className="-mt-5 ml-5 w-[280px] h-96 text-center  place-item-center overflow-visible relative mb-5 group md:-ml-24
+              md:mr-32 "
                data-aos="zoom-in"
               data-aos-once="true"
                >
@@ -32,7 +32,7 @@ const Top_Rated = () => {
                         <img src={pic2} className="w-52 h-64 pt-12 group-hover:scale-105 duration-300 "></img>
                     </div>
                     <div className="-mt-28 bg-white rounded-lg shadow-2xl hover:bg-gray-900 hover:text-white">
-                        <div className="pl-20 pt-20 h-40">
+                        <div className="pl-20 pt-20 h-[160px]">
                      <img src={four_star} className="w-32 h-20"></img></div>
                      <h3 className="text-xl font-semibold -mt-7">Casual Wear</h3>
                      <p className="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, adipisci.</p>
@@ -40,7 +40,7 @@ const Top_Rated = () => {
                     </div>
                 </div>
 
-                <div className="-mt-5 ml-5 w-72 h-96 text-center  place-item-center overflow-visible relative mb-5 group"
+                <div className="-mt-5 ml-5 w-72 h-96 text-center  place-item-center overflow-visible relative mb-5 group md:-ml-24 lg:mr-32"
                  data-aos="zoom-in"
                  data-aos-once="true"
                  data-aos-delay="200"
@@ -56,7 +56,7 @@ const Top_Rated = () => {
                      <button className="bg-amber-500 px-3 py-1 mt-3 rounded-full text-white text-sm hover:bg-white hover:text-amber-500 cursor-pointer mb-2">Order Now</button>
                     </div>
                 </div>
-                <div className="-mt-5 ml-5 w-72 h-96 text-center  place-item-center overflow-visible relative mb-5 group"
+                <div className="-mt-5 ml-5 w-72 h-96 text-center  place-item-center overflow-visible relative mb-5 group md:-ml-24 "
                   data-aos="zoom-in"
                   data-aos-once="true"
                  data-aos-delay="300"

@@ -38,28 +38,29 @@ const HomePage = () => {
          
        } ;
     return (
-        <div className="overflow-hidden w-[800px] h-screen bg-gray-100 -mt-16 relative dark:bg-black md:mt-[0.7px] lg:w-[1500px] lg:pl-32 md:h-screen">
+        <div className="overflow-hidden w-[550px] h-[600px] bg-gray-100 -mt-16  fixed relative dark:bg-black md:mt-[0.7px] lg:w-[1500px] lg:pl-32 sm:w-[150vw] sm:h-[450px] lg:h-screen ">
             <div className="">
-                <div className="w-[400px] h-[400px] bg-orange-200 rounded-3xl rotate-45 -mt-36 relative ml-80 dark:bg-yellow-900 lg:w-[500px] md:-mt-40 lg:h-[500px] lg:ml-96 lg:-mt-60">
+                <div className="w-[400px] h-[450px] bg-orange-200 rounded-3xl rotate-[40deg] -mt-[200px] relative ml-[20vw] dark:bg-yellow-900 sm:ml-[45vw] sm:-mt-[240px] lg:w-[500px] md:ml-[55vw] md:-mt-[210px] ml-10 lg:h-[500px] lg:ml-96 lg:-mt-60">
 
                 </div>
-                <div className="container -mt-32 sm:-mt-36 lg:w-fix lg:-ml-20">
+                <div className=" -mt-[150px] lg:w-fix lg:-ml-20 md:">
            <Slider {...settings}>
                {ImageList.map((data)=>(
 
    
     <div className="">
-        <div className=" relative h-screen sm:-mt-2">
+        <div className=" relative h-screen ">
 
-        <div className=" ml-60 sm:ml-72 sm:w-[450px] lg:w-[500px] lg:ml-[460px]">
+        <div className=" ml-[7vw] sm:w-[440px] sm:h-[300px] sm:mt-7 sm:ml-[36vw] w-[550px] h-[400px] md:w-[500px] md:h-[400px] md:ml-[48vw] md:-mt-[10px]
+        lg:w-[800px] lg:h-[800px] lg:ml-[500px] md:ml-[29vw]">
             <img src={data.img} 
               data-aos="zoom-in"
               data-aos-once="true"
 
-            className="-mt-3 sm:h-[400px]"></img>
+            className="h-80"></img>
         </div>
-        <div className="text ml-5 -mt-[415px] dark:text-white lg:mr-16">
-         <h1 className="text-4xl font-semibold font-sans w-72 mb-3 lg:text-5xl pt-20 lg:w-96 "
+        <div className="-mt-[150px] sm:ml-[10px] sm:-mt-[340px] sm:text-left  md:ml-4 text-center ml-[130px] dark:text-white md:-mt-[440px] md:w-80 sm:w-[50vw] lg:-mt-[850px] w-72">
+         <h1 className="text-3xl lg:text-4xl font-semibold font-sans mb-3 pt-20 lg:w-96 "
          data-aos="zoom-out"
          data-aos-duration="500"
          data-aos-once="true"
@@ -68,7 +69,7 @@ const HomePage = () => {
         data-aos="fade-up"
         data-aos-duration="500"
         data-aos-delay="100"
-       className="w-96 text-sm mb-4 lg:text-base">{data.description}</p>
+       className="w-72 text-xs mb-4 -ml-5 sm:ml-1 lg:text-base">{data.description}</p>
          <button 
           data-aos="fade-up"
           data-aos-duration="500"

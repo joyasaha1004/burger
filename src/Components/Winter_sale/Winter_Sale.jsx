@@ -4,22 +4,22 @@ import shopping3 from "../Assets/shopping3.jpg"
 const Winter_Sale = () => {
     return (
         <div>
-            <div className="pl-10 pt-24 flex lg:pl-40 dark:bg-black w-[800px] lg:w-screen">
+            <div className="pl-20 pt-24 sm:-ml-[150px] dark:bg-black w-[550px] grid grid-col-1 sm:flex lg:w-screen md:pl-[20vw] sm:w-[150vw]">
                 
                 
-                    <img src={shopping3} className="w-[220px] h-[300px] mt-2 drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)]"
+                    <img src={shopping3} className="w-[200px] h-[300px] mt-2 ml-20 mb-5 drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] sm:w-[180px]"
                     data-aos="zoom-out"
                     data-aos-once="true"
                     ></img>
                
                 <div className=" ml-12 dark:text-white mb-10">
-                    <div className=" font-sans w-[320px] lg:w-[500px]">
+                    <div className=" font-sans w-[320px] sm:w-[44vw] lg:w-[500px]">
                         <h1 className="text-2xl font-bold " data-aos="fade-up">Winter Sale Up To 50% Off</h1>
                         <p className="text-gray-600 text-sm" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere doloribus nisi aut tempora vero. Voluptas.</p>
                     </div>
-                    <div>
+                    <div className="sm:-mt-2">
                     <div className="flex mt-7 space-x-4" data-aos="fade-up">
-                        <div className="w-12 h-12 bg-violet-200 place-item-center p-3.5 rounded-full">
+                        <div className="w-12 h-12 bg-violet-200 place-item-center p-3.5 rounded-full ">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 ">
   <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
 </svg></div>

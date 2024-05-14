@@ -52,20 +52,20 @@ const ProductData = [
 const Product = () => {
 
     return (
-        <div  className=" dark:bg-black w-[800px] lg:w-screen ">
-           <div className=" lg:pl-12">
-                <div className="mx-[150px] relative text-center ml-[10px] pt-10 md:pl-5 lg:pl-12">
+        <div  className=" dark:bg-black w-[550px] sm:w-[150vw]">
+           <div className=" relative">
+                <div className="relative text-center pt-10 sm:w-[78vw] sm:ml-16 w-[600px] -ml-10 ">
        <p data-aos="fade-up" className="text-amber-500 text-sm">Top Selling Products for you</p>  
                   <h1 data-aos="fade-up" className="text-2xl font-semibold font-sans dark:text-white">Top Selling Products</h1>
                   <p data-aos="fade-up" className="text-gray-400 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nemo.</p>
                 </div>
 
-                <div className="flex flex-wrap gap-10 mt-5 ml-12 center w-screen place-item-center lg:-ml-1">
+                <div className="flex sm:grid sm:grid-cols-3 gap-8 flex-wrap pl-20 mt-5 w-[550px] sm:-ml-[20px] sm:w-[95vw] md:flex flex-wrap md:pl-20">
                   {ProductData.map((data)=>(
                     <div data-aos="fade-up"
                          data-aos-delay={data.aosDelay}
                     key={data.id} 
-                    className="space-y-3">
+                    className="space-y-3 ">
                   <img src={data.img} className="w-[150px] h-60"></img>
                   <div>
                     <h3 className="font-semibold font-sans text-sm dark:text-white">{data.title}</h3>
